@@ -1,0 +1,47 @@
+
+h1 {
+    color: blueviolet;
+    background-color: turquoise;
+    font-family: cursive;
+    text-align: center;
+    border: 5px solid salmon;
+}
+
+h2 {
+    background-color: cadetblue;
+    margin-block-start: 1em;
+    margin-inline-start: 2em;
+    color: blue;
+    font-family: math;
+    background-color: cadetblue;
+    font-size: xx-large;
+    border: 5px solid navy;
+}
+
+img {
+    height: 12em;
+    width: 10em;
+    border:3px solid black;
+}
+
+.bloc0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: sandybrown;
+}
+
+.bloc1 {
+    background-color: tomato;
+    font-family: cursive;
+    margin-block-start: 2em;
+    margin-inline-start: 2em;
+    border: 3px solid blueviolet
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    background-color: violet;
+    border: 5px solid gray;
+}

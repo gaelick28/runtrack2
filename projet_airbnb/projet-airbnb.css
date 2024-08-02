@@ -1,0 +1,107 @@
+
+.airbnb {
+    font-family: cursive;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+.destination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border:1px solid grey;
+    border-radius: 28px;
+    
+}
+
+span {
+    color:grey;
+}
+
+ .logo>h3 {
+    margin-inline-start:1px;
+    color:red;
+    margin-block-start:2px;
+    margin-inline-end:50px;
+  
+  }  
+ 
+
+.destination>img {
+height:30px;
+background-color: red;
+color:blue;
+}
+
+.logo>img {
+    height:50px;
+}
+
+.partie-centrale {
+margin-top: 40px;
+}
+
+.menu-typologie-logement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-typologie-logement>a>img {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-chambre>img {
+   display:flex;
+    flex-direction:row; 
+    margin-block-start:50px;
+    height:10px;
+    
+}
+
+
+.image1 {
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 4px;
+
+}
+
+.image-bloc1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-bloc2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+
+.Foot {
+    margin-left: 28px;
+    
+}
+
+
+.menu-typologie-logement>img {
+    height: 25px;
+    
+}
+

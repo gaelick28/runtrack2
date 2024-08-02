@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(168, 196, 215);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+
+header>a {
+    color: blue;
+}
+
+.img{
+    margin-block-start: 55px;
+    margin-inline-start: 100px;
+    width:60%;
+    }
+
+.bloc
+{
+background-color: rgb(37, 188, 230);
+}
+
+.métier{
+    margin-inline-start: 25px;
+    font-weight: bold;
+    justify-content:first baseline;
+    display: flex;
+    flex-direction: row;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.présentation {
+    font-family: Verdana;
+    margin-block-start: 15px;
+    margin-inline-start: 25px;
+    font-weight: bold;
+    justify-content:center;
+    display: flex;
+    flex-direction:column
+}
+
+h2 {
+     color: midnightblue;
+    font-family: cursive;
+    font-size:xx-large;
+}
+
+h3 {
+    margin-inline-start: 25px;
+    font-family:Courier New;
+}
+
+footer>p {
+   color:crimson; 
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+}
+
+span {
+    color: rgb(185, 231, 15);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+button {
+    height: 28px;
+    width: 200px;
+    text-align: center;
+    background-color:darkorange;
+}
+
+.prin{
+    display: flex;
+    flex-direction: row;
+}
+
+.texte2{
+    background-color: rgb(255, 0, 132);
+    font-size:xx-large;
+}
+
+.texte1 {
+    background-color: blue;
+    font-size:xx-large;
+}
+
+ul{
+    
+}
